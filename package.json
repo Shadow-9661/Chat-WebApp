@@ -1,0 +1,33 @@
+{
+  "name": "node-js",
+  "description": "Chat web app using Nodejs and Express",
+  "engines": {
+    "node": "10.x"
+  },
+  "main": "app.ts",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "bcrypt-nodejs": "0.0.3",
+    "cors": "^2.8.5",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "knex": "^0.16.5",
+    "pg": "^7.9.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shadow-9661/Chat-WebApp.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
+}
