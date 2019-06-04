@@ -1,6 +1,7 @@
 const express = require('express');
 const knex = require('knex');
 const messages = express.Router();
+const sendMessage = express.Router();
 const bcrypt = require('bcrypt-nodejs');
 const db = knex({
     client: 'pg',
